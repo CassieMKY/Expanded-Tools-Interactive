@@ -1,0 +1,44 @@
+body{
+	font-size: 20px;
+}
+
+
+.circle{
+	width:200px;
+	height:200px;
+	background-color:#ff7550;
+	border-radius:50%;
+	margin-left: 160px;
+	transform: translateY(300px);
+
+}
+
+.square{
+	width: 40px;
+	height: 40px;
+	background-color: #ffc010;
+	margin-left: 150px;
+	transform: translateY(90px);
+	z-index: (-10px);
+
+}
+
+.square2{
+
+	width: 100px;
+	height: 100px;
+	background-color: #652d90;
+	margin-left: 100px;
+
+}
+
+.combine{
+	margin-top: -130px;
+	display: inline-block;
+}
+
+#container{
+    display:inline-block;
+    transform: translateX(600px);
+}
+
