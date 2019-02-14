@@ -2,6 +2,11 @@ body{
 	font-size: 20px;
 }
 
+#container{
+    display:inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 .circle{
 	width:200px;
@@ -11,6 +16,12 @@ body{
 	margin-left: 160px;
 	transform: translateY(300px);
 
+}
+
+#container2{
+    display:inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .square{
@@ -23,6 +34,12 @@ body{
 
 }
 
+#container3{
+    display:inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 .square2{
 
 	width: 100px;
@@ -32,13 +49,5 @@ body{
 
 }
 
-.combine{
-	margin-top: -130px;
-	display: inline-block;
-}
 
-#container{
-    display:inline-block;
-    transform: translateX(600px);
-}
 
