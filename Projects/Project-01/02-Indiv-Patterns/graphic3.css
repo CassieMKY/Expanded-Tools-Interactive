@@ -3,6 +3,7 @@ body{
 }
 
 
+
 .square{
 	width: 13px;
 	height:13px;
@@ -56,7 +57,7 @@ body{
 	margin-left: 30px;
 	margin-top: 100px;
 	transform:rotate(45deg);
-	opacity: 0.6;
+	opacity: 0.3;
 	
 	
 }
@@ -69,6 +70,38 @@ body{
     display:block;
     position: absolute;
 }
+
+#container3{
+	display: flex;
+	flex-direction: column;
+	transform: translateX(300px);
+	margin-top: 130px;
+    display:block;
+    position: fixed;
+}
+
+.squareA{
+	width: 13px;
+	height:13px;
+	background-color: #404041;
+	padding: 20px;
+	margin: 20px;
+	transform: translateX(130px);
+	opacity: 0.9;
+}
+	
+.squareB{
+
+	width: 100px;
+	height: 100px;
+	background-color: #92a37e;
+	padding: 20px;
+	margin-left: 30px;
+	margin-top: 100px;
+	transform:rotate(45deg);
+	opacity: 0.9;
+
+
 
 
 
