@@ -1,6 +1,12 @@
 body{
 	font-size: 20px;
-	background-color: yellow;
+	
+   background: yellow;
+  background-image:
+    radial-gradient(salmon 20%, transparent 0), 
+    radial-gradient(salmon 20%, transparent 0);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
 }
 
 
