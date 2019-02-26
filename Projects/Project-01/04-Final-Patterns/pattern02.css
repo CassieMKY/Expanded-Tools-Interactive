@@ -1,0 +1,99 @@
+body{
+	background-color: #6d0003;
+      margin: -30px;
+}
+
+
+#container-1{
+      position: relative;
+      display: inline-block;
+     margin-right: 300px;      
+     margin-left: 30px;
+
+flex-wrap: nowrap;
+      overflow: auto;
+      overflow-y:scroll;
+
+}
+
+
+.square-1{
+      position: fixed;
+      display: inline-block;
+	width: 10px;
+	height: 200%;
+	background: black;
+	margin-right:50px;
+      margin-left: 100px;
+      z-index: 1;
+       overflow: auto;
+      overflow-y:scroll;
+}
+
+.square-2{
+      position:fixed;
+      display: inline-block;
+      width: 10px;
+      height: 100%;
+      background: black;
+      margin-right:150px;
+      margin-left: 150px;
+      margin-top: 30px;
+        overflow: auto;
+      overflow-y:scroll;
+}
+
+.square-3{
+      position:fixed;
+      display: inline-block;
+      width: 10px;
+      height: 200%;
+      background: black;
+      margin-right:200px;
+      margin-left: 250px;
+      margin-top: 20px;
+        overflow: auto;
+      overflow-y:scroll;
+}
+
+
+.circle-1{
+      width: 100px;
+      height: 100px;
+      background: transparent;
+      border-radius: 50%;
+      border-style:solid;
+      border-width:10px;  
+      border-color:white;
+      margin-top: 20px;
+      position:fixed;
+
+
+}
+
+.circle-2{
+      width: 10px;
+      height: 10px;
+      background: transparent;
+      border-radius: 50%;
+      border-style: solid;
+      border-width:3px;  
+      border-color:white;
+      margin-top: 20px;
+      margin-left: -10px;
+      display: inline-block;
+     
+
+}
+
+#container-2{
+      transform: translateX(0px) translateY(100px);
+     
+      flex-wrap: nowrap;
+      z-index: 1;
+      overflow-x: scroll;
+      width: 150%;
+}
+
+
+
