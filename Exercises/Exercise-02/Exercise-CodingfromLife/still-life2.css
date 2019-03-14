@@ -1,0 +1,223 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+ background: #DADADA;
+}
+.square{
+
+ width: 890px;
+ height: 300px;
+ background-color: #DCF4F3;
+ display: inline-block;
+ transform:translateX(0px) translateY(0px);
+ opacity: 0.8;
+}
+.canvas {
+ width: 900px;
+ height: 556px;
+ margin: 100px auto;
+ background: white;
+ position: relative;
+ border: solid black 5px;
+}
+
+.container {
+   position: absolute;
+      z-index: 1;
+  }
+
+.square1{
+
+ width: 170px;
+ height: 30px;
+ background-color: #7C95A5;
+ display: inline-block;
+ position: absolute;
+ top: 375px;
+ left:264px;
+ opacity: 0.7;
+}
+.Oval{  
+   width: 170px;  
+   height: 70px;  
+   float: left;  
+   background: #7C95A5;  
+   -webkit-border-radius: 100px / 50px;  
+   -moz-border-radius: 100px / 50px;  
+   border-radius: 100px / 50px; 
+   position: absolute;
+   top: 334px;
+   left:264px;
+   opacity: 0.7;
+ }  
+
+.Oval2{  
+   width: 200px;  
+   height: 100px;  
+   float: left;  
+   background: #ADD7F2;  
+   -webkit-border-radius: 100px / 50px;  
+   -moz-border-radius: 100px / 50px;  
+   border-radius: 100px / 50px; 
+ position: absolute;
+ top: 315px;
+ left:250px;
+ opacity: 0.7;
+ } 
+
+ .semi-circle {
+    width: 80px;
+ height: 55px;
+ border-radius: 100px 100px 0 0;
+ height: 50px;
+ background-color: #9095A0;
+ position: absolute;
+ float: left;  
+  top: 320px;
+     left:305px;
+    }
+
+.circle{
+ 
+ width: 80px;
+ height: 80px;
+ background-color: #CECAC4;
+  float: left;  
+  position: absolute;
+ border-radius: 50%;
+  top: 265px;
+     left:290px;
+}
+
+.circle1{
+ 
+ width: 70px;
+ height: 70px;
+ background-color: #E5D9CF;
+ float: left;  
+ position: absolute;
+ border-radius: 50%;
+ top: 275px;
+    left:340px;
+}
+
+.circle2{
+ 
+ width: 70px;
+ height: 70px;
+ background-color: #F4F3E6;
+ float: left;  
+ position: absolute;
+ border-radius: 50%;
+ top: 279px;
+    left:255px;
+
+}
+.Triangle {  
+   width: 0;  
+   height: 0;  
+   float: left;  
+   border-bottom: 50px solid #fcf706;  
+   border-left: 20px solid transparent;  
+   border-right: 20px solid transparent; 
+   position: absolute;
+   top: 195px;
+    left:310px; 
+ }  
+ .Triangle1 {  
+   width: 0;  
+   height: 0;  
+   float: left;  
+   border-bottom: 30px solid red;  
+   border-left: 10px solid transparent;  
+   border-right: 10px solid transparent; 
+   position: absolute;
+   top: 208px;
+   left:320px; 
+   opacity: 0.7;
+ }  
+
+.circle3{
+ 
+ width: 75px;
+ height: 75px;
+ background-color: #F4F3ED;
+ float: left;  
+ position: absolute;
+ border-radius: 50%;
+ top: 255px;
+    left:320px;
+
+}
+
+.circle4{
+ 
+ width: 75px;
+ height: 75px;
+ background-color: #FCFBD6;
+ float: left;  
+ position: absolute;
+ border-radius: 50%;
+ top: 235px;
+    left:260px;
+
+}
+
+.circle5{
+ 
+ width: 70px;
+ height: 70px;
+ background-color: white;
+ float: left;  
+ position: absolute;
+ border-radius: 50%;
+ top: 230px;
+    left:290px;
+}
+
+.circle6{
+
+ width: 70px;
+ height: 70px;
+ background-color: #FCFBD6;
+ float: left;  
+ position: absolute;
+ border-radius: 50%;
+ top: 240px;
+    left:270px;
+}
+
+.circle7{
+ width: 70px;
+ height: 70px;
+ background-color: #FCFBD6;
+ float: left;  
+ position: absolute;
+ border-radius: 50%;
+ top: 250px;
+    left:270px;
+}
+
+.circle8{ 
+ width: 75px;
+ height: 75px;
+ background-color: #FFFFEE;
+ float: left;  
+ position: absolute;
+ border-radius: 50%;
+ top: 250px;
+    left:300px;
+}
+
+.circle9{ 
+ width: 75px;
+ height: 75px;
+ background-color: white;
+ float: left;  
+ position: absolute;
+ border-radius: 50%;
+ top: 235px;
+    left:330px;
+}
