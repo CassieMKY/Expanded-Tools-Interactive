@@ -8,12 +8,24 @@ body {
 .square{
 
  width: 890px;
- height: 300px;
- background-color: #DCF4F3;
+ height: 320px;
+ background-color: #ccc4b9;
  display: inline-block;
  transform:translateX(0px) translateY(0px);
  opacity: 0.8;
 }
+
+.square2{
+
+ width: 890px;
+ height: 227px;
+ background-color: #e2dacb;
+ display: inline-block;
+ transform:translateX(0px) translateY(-5px);
+ opacity: 0.8;
+}
+
+
 .canvas {
  width: 900px;
  height: 556px;
@@ -23,48 +35,40 @@ body {
  border: solid black 5px;
 }
 
+
+
 .container {
    position: absolute;
       z-index: 1;
   }
 
-.square1{
 
- width: 170px;
- height: 30px;
- background-color: #7C95A5;
- display: inline-block;
- position: absolute;
- top: 375px;
- left:264px;
- opacity: 0.7;
-}
 .Oval{  
    width: 170px;  
    height: 70px;  
    float: left;  
-   background: #7C95A5;  
+   background: grey;  
    -webkit-border-radius: 100px / 50px;  
    -moz-border-radius: 100px / 50px;  
    border-radius: 100px / 50px; 
    position: absolute;
-   top: 334px;
-   left:264px;
-   opacity: 0.7;
+   top: 320px;
+   left:255px;
+   opacity: 0.2;
  }  
 
 .Oval2{  
    width: 200px;  
    height: 100px;  
    float: left;  
-   background: #ADD7F2;  
+   background: grey;  
    -webkit-border-radius: 100px / 50px;  
    -moz-border-radius: 100px / 50px;  
    border-radius: 100px / 50px; 
  position: absolute;
  top: 315px;
- left:250px;
- opacity: 0.7;
+ left:240px;
+ opacity: 0.3;
  } 
 
  .semi-circle {
@@ -72,69 +76,70 @@ body {
  height: 55px;
  border-radius: 100px 100px 0 0;
  height: 50px;
- background-color: #9095A0;
+ background-color: #cdb89e;
  position: absolute;
  float: left;  
-  top: 320px;
-     left:305px;
+  top: 310px;
+     left:295px;
     }
 
 .circle{
  
  width: 80px;
  height: 80px;
- background-color: #CECAC4;
+ background-color: #cdb89e;
   float: left;  
   position: absolute;
  border-radius: 50%;
-  top: 265px;
-     left:290px;
+  top: 220px;
+     left:350px;
+
 }
 
 .circle1{
  
  width: 70px;
  height: 70px;
- background-color: #E5D9CF;
+ background-color: #ffedd2;
  float: left;  
  position: absolute;
  border-radius: 50%;
  top: 275px;
-    left:340px;
+    left:355px;
 }
 
 .circle2{
  
  width: 70px;
  height: 70px;
- background-color: #F4F3E6;
+ background-color: #ffedd2;
  float: left;  
  position: absolute;
  border-radius: 50%;
  top: 279px;
-    left:255px;
+    left:243px;
 
 }
 .Triangle {  
    width: 0;  
    height: 0;  
    float: left;  
-   border-bottom: 50px solid #fcf706;  
+   border-bottom: 50px solid #fcdf64;  
    border-left: 20px solid transparent;  
    border-right: 20px solid transparent; 
    position: absolute;
-   top: 195px;
+   top: 210px;
     left:310px; 
  }  
  .Triangle1 {  
    width: 0;  
    height: 0;  
    float: left;  
-   border-bottom: 30px solid red;  
+   border-bottom: 30px solid white;  
    border-left: 10px solid transparent;  
    border-right: 10px solid transparent; 
    position: absolute;
-   top: 208px;
+   top: 220px;
    left:320px; 
    opacity: 0.7;
  }  
@@ -143,7 +148,7 @@ body {
  
  width: 75px;
  height: 75px;
- background-color: #F4F3ED;
+ background-color: #ffedd2;
  float: left;  
  position: absolute;
  border-radius: 50%;
@@ -156,20 +161,22 @@ body {
  
  width: 75px;
  height: 75px;
- background-color: #FCFBD6;
+ background-color: #ecd3b2;
  float: left;  
  position: absolute;
  border-radius: 50%;
- top: 235px;
-    left:260px;
+ top: 220px;
+ left:250px;
 
 }
 
-.circle5{
- 
+
+
+.circle6{
+
  width: 70px;
  height: 70px;
- background-color: white;
+ background-color: #ffedd2;
  float: left;  
  position: absolute;
  border-radius: 50%;
@@ -177,47 +184,58 @@ body {
     left:290px;
 }
 
-.circle6{
-
- width: 70px;
- height: 70px;
- background-color: #FCFBD6;
- float: left;  
- position: absolute;
- border-radius: 50%;
- top: 240px;
-    left:270px;
-}
-
 .circle7{
  width: 70px;
  height: 70px;
- background-color: #FCFBD6;
+ background-color: #ffedd2;
  float: left;  
  position: absolute;
  border-radius: 50%;
- top: 250px;
-    left:270px;
+ top: 190px;
+    left:300px;
 }
 
 .circle8{ 
  width: 75px;
  height: 75px;
- background-color: #FFFFEE;
+ background-color: #ecd3b2;
  float: left;  
  position: absolute;
  border-radius: 50%;
- top: 250px;
-    left:300px;
+ top: 270px;
+    left:293px;
 }
 
 .circle9{ 
  width: 75px;
  height: 75px;
- background-color: white;
+ background-color: #ecd3b2;
  float: left;  
  position: absolute;
  border-radius: 50%;
- top: 235px;
+ top: 230px;
     left:330px;
+}
+
+.container{
+  transform:translateY(-545px);
+}
+
+
+.container1{
+  z-index: 0;
+  position:absolute;
+  transform:translateY(-545px);
+}
+
+.container2{
+  z-index: 1;
+  position:absolute;
+  transform:translateY(-545px);
+}
+
+.container3{
+  z-index: 2;
+  position:absolute;
+  transform:translateY(-545px);
 }
