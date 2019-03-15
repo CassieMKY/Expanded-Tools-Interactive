@@ -239,3 +239,165 @@ body {
   position:absolute;
   transform:translateY(-545px);
 }
+
+
+
+
+#container {
+  margin: 90px auto;
+  height: 175px;
+  width: 170px;
+}
+
+
+
+#tail-mask {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 100px;
+  height: 30px;
+  width: 75px;
+  background-color: white;
+  z-index: 0;
+}
+
+#nose {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 45px;
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background-color: pink;
+  z-index: 1;
+  transform:translateX(80px);
+}
+
+#body {
+  position: relative;
+  height: 110px;
+  width: 200px;
+  background-color: white;
+  border-radius: 30px;
+  display: inline-block;
+  overflow: hide;
+  z-index: 1;
+  transform:translateX(-100px);
+}
+
+.ear {
+  position: relative;
+  margin-top: -20px;
+  height: 45px;
+  width: 50px;
+  background-color: white;
+  display: inline-block;
+  z-index: 2;
+  transform:translateX(80px);
+}
+  
+#ear-left {
+  clip-path: polygon(0 0, 0% 100%, 100% 60%);
+}
+
+#ear-right {
+  margin-left: 6px;
+  clip-path: polygon(100% 0, 0% 60%, 100% 100%);
+}
+
+.ear-inner {
+  position: relative;
+  height: 30px;
+  width: 50px;
+  background-color: black;
+  z-index: 3;
+}
+
+#ear-inner-left {
+  margin-top: 8px;
+  margin-left: 5px;
+  clip-path: polygon(0 0, 100% 90%, 0 100%);
+}
+
+#ear-inner-right {
+  margin-top: 8px;
+  margin-left: -4px;
+  clip-path: polygon(100% 0%, 100% 100%, 0 90%);
+}
+
+
+
+#patch {
+  position: relative;
+  margin-top: -50px;
+  z-index: 5;
+}
+
+
+
+.fur:first-of-type {
+  margin-left: 40%;
+  height: 15px;
+  float: left;
+}
+
+.fur:nth-of-type(2) {
+  margin-left: 4px;
+  height: 5px;
+  float: left;
+}
+
+.fur:nth-of-type(3) {
+  margin-left: 4px;
+  height: 10px;
+  float: left;
+}
+
+
+#eyes {
+  position: relative;
+  margin-top: 30%;
+  z-index: 5;
+  transform:translateX(50px);
+}
+
+.eye {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #554D44;
+  display: inline-block;
+}
+
+#eye-left {
+  margin-left: 27%;
+}
+
+#eye-right {
+  margin-left: 10%;
+}
+
+.shine {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-top: 2px;
+  margin-left: 1px;
+}
+
+
+
+.whisker {
+  height: 3px;
+  width: 25px;
+  background-color: #D3B897;
+  margin-bottom: 6px;
+}
+
+
+
+
+
+
+
