@@ -147,6 +147,7 @@ body {
       background: #ffce00;
       border-radius: 50%;
       transform:translateX(320px) translateY(-120px);
+      transition: all 3s ease-in-out;
 }
 
 .circle1 {
@@ -155,6 +156,10 @@ body {
       background: #ffce00;
       border-radius: 50%;
       transform:translateX(295px) translateY(-190px);
+      transition-property: top, left;
+      transition: all 3s ease-in-out;
+  transition-duration: 1s, 1s;
+  transition-delay: 2s, 1s;
 }
 
 .circle2 {
@@ -163,6 +168,7 @@ body {
       background: #ffce00;
       border-radius: 50%;
       transform:translateX(350px) translateY(-150px);
+       transition: all 5s ease-in-out;
 }
 
 .circle3 {
@@ -171,6 +177,10 @@ body {
       background: #ffce00;
       border-radius: 50%;
       transform:translateX(380px) translateY(-220px);
+      transition-property: top, left, border-radius, background-color;
+  transition-duration: 2s, 1s, 0.5s, 0.5s;
+  transition-delay: 6s, 0.5s, 1s, 1.5s;
+   transition: all 3s ease-in-out;
 }
 
 .circle4 {
@@ -179,6 +189,9 @@ body {
       background: #ffce00;
       border-radius: 50%;
       transform:translateX(415px) translateY(-210px);
+      transition-duration: 1s, 1s, 0.5s, 0.5s;
+  transition-delay: 1s, 0.5s, 1s, 1.5s;
+   transition: all 2s ease-in-out;
 }
 
 .circle5 {
@@ -187,6 +200,9 @@ body {
       background: #ffce00;
       border-radius: 50%;
       transform:translateX(505px) translateY(-240px);
+       transition-duration: 3s, 1s, 0.5s, 0.5s;
+  transition-delay: 3s, 0.5s, 1s, 1.5s;
+   transition: all 6s ease-in-out;
 }
 
 
