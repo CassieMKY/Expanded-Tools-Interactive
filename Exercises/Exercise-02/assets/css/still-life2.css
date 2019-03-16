@@ -93,6 +93,10 @@ body {
  border-radius: 50%;
   top: 220px;
      left:350px;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 4s ease-out;
+  transition: background-color 18s ease-out;
 
 }
 
@@ -106,6 +110,10 @@ body {
  border-radius: 50%;
  top: 275px;
     left:355px;
+      -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 15s ease-out;
 }
 
 .circle2{
@@ -118,6 +126,10 @@ body {
  border-radius: 50%;
  top: 279px;
     left:243px;
+      -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 10s ease-out;
 
 }
 .Triangle {  
@@ -130,7 +142,9 @@ body {
    position: absolute;
    top: 210px;
     left:310px; 
+    
  }  
+
  .Triangle1 {  
    width: 0;  
    height: 0;  
@@ -142,6 +156,7 @@ body {
    top: 220px;
    left:320px; 
    opacity: 0.7;
+  
  }  
 
 .circle3{
@@ -154,6 +169,10 @@ body {
  border-radius: 50%;
  top: 255px;
     left:320px;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 3s ease-out;
+  transition: background-color 7s ease-out;
 
 }
 
@@ -167,7 +186,10 @@ body {
  border-radius: 50%;
  top: 220px;
  left:250px;
-
+-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 6s ease-out;
+  transition: background-color 3s ease-out;
 }
 
 
@@ -184,8 +206,8 @@ body {
     left:290px;
     -webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
+  -o-transition: background-color 8s ease-out;
+  transition: background-color 4s ease-out;
 }
 
 .circle7{
@@ -197,6 +219,10 @@ body {
  border-radius: 50%;
  top: 190px;
     left:300px;
+      -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 3s ease-out;
+  -o-transition: background-color 3s ease-out;
+  transition: background-color 6s ease-out;
 }
 
 .circle8{ 
@@ -208,6 +234,10 @@ body {
  border-radius: 50%;
  top: 270px;
     left:293px;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 3s ease-out;
+  transition: background-color 5s ease-out;
 }
 
 .circle9{ 
@@ -219,6 +249,10 @@ body {
  border-radius: 50%;
  top: 230px;
     left:330px;
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 3s ease-out;
+  transition: background-color 8s ease-out;
 }
 
 .container{
