@@ -1,0 +1,154 @@
+@import url();
+
+body {
+  background: black;
+  font-size: 12pt;
+  margin: 0rem;
+  padding: 0px;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont,
+            "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+            "Fira Sans", "Droid Sans", "Helvetica Neue",
+            sans-serif;
+    display: grid;
+    grid-gap: 0.1vw;
+    grid-template-columns: 13rem 1fr;
+    grid-template-rows: 7rem 1fr 3rem;
+    grid-template-areas: "header   header"
+                         "sidebar content"
+                         "footer footer"; 
+   
+}
+
+
+header{
+  grid-area: header;
+  text-transform: uppercase;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  display: grid;
+  color: #fff;
+  border-style: solid; 
+  border-width: 0px;
+  font-size: 63px;
+  transform: translateY(-39px);
+}
+
+header h2{
+  align-self: center;
+  justify-self: center;  
+}
+aside{
+  background-color: white;
+  margin-left: 10px margin-right: 10px;
+  grid-area: sidebar;
+  float: left;
+  
+  color: black;
+  border-width:0.3px;
+  border-style: solid;
+ 
+  display: grid;
+  align-items: cente justify-items: center;
+  line-height: 3;r;
+ 
+  letter-spacing: 3px;
+  padding-left:1em;
+
+}
+
+footer{
+  grid-area: footer;
+  color: #fff;
+  border-width:0.3px;
+  border-style: solid;
+  clear: both;
+ 
+  align-self: center;
+  justify-self: center; 
+
+}
+main {
+    grid-area: content;
+    float: right;
+    width:  calc(100%  - 7.2rem);
+    padding: 5px;
+    background: #fffa57;
+    display: grid;  
+    grid-gap: 0.1vw;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(12rem, 1fr));
+}
+
+@supports (display: grid){
+  main, aside {
+    width:  auto;
+  }
+  
+} 
+
+
+
+
+main > article {
+    
+    background-image: url("universe.png");
+    display: grid;
+    align-items: center;
+    justify-items: center;
+      
+    border-style: solid;  
+    color: hsl(0, 0%, 100%);
+    border-width: 0px;
+}
+
+main article:nth-child(2)  { 
+  grid-column: 2/span 5;
+  grid-row: 1/span 3;
+}
+ 
+/* iPad
+-------------------------------------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+  
+  
+ body{
+
+  border-style: solid;
+ 
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  line-height: 2;
+  letter-spacing: 3px;
+  padding-left:1em;
+  
+  font-size:9px;
+    
+ }
+}
+
+
+
+
+/* Mobile
+-------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  body { 
+  grid-template-rows: 6rem  1fr 5.5rem  5.5rem ;  
+  grid-template-columns: 3fr;  
+  grid-template-areas: 
+      "header"
+      "content"
+      "sidebar"
+      "footer";
+  line-height: 2;
+  letter-spacing: 1px;
+  font-size:9px;
+    
+ }
+}
+
+
+
+
